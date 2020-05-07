@@ -28,14 +28,14 @@ echo $blue "|| $green 4. Geser Satelit Nasa         $blue ||"
 echo $blue "|| $green 0. Exit The Program           $blue ||"
 echo $blue "===================================="
 echo $blue"╭──[Masukkan Pilihan Anda]>"
-read -p"╰───────root@GilangKun=•>" Gans;
+read -p"╰───────root@GalangRA=•>" Gans;
 if [ $Gans = 1 ] || [ $Gans = 01 ]
 then
 echo $blue"╭──[Mau Kearah Mana]>"
-read -p"╰───────root@GilangKun=•>" arah;
+read -p"╰───────root@GalangRA=•>" arah;
 sleep 1
 echo $green"╭──[Mau Digeser Berapa Derajat]>"
-read -p"╰───────root@GilangKun=•>" derajat;
+read -p"╰───────root@GalangRA=•>" derajat;
 sleep 1
 echo $red "Loading"
 sleep 1
@@ -67,10 +67,10 @@ fi
 if [ $Gans = 2 ] || [ $Gans = 02 ]
 then
 echo $blue"╭──[Mau Kearah Mana]>"
-read -p"╰───────root@GilangKun=•>" arah;
+read -p"╰───────root@GalangRA=•>" arah;
 sleep 1
 echo $green"╭──[Mau Digeser Berapa Derajat]>"
-read -p"╰───────root@GilangKun=•>" derajat;
+read -p"╰───────root@GalangRA=•>" derajat;
 sleep 1
 echo $red "Loading"
 sleep 1
@@ -102,10 +102,10 @@ fi
 if [ $Gans = 3 ] || [ $Gans = 03 ]
 then
 echo $blue"╭──[Mau Kearah Mana]>"
-read -p"╰───────root@GilangKun=•>" arah;
+read -p"╰───────root@GalangRA=•>" arah;
 sleep 1
 echo $green"╭──[Mau Digeser Berapa Derajat]>"
-read -p"╰───────root@GilangKun=•>" derajat;
+read -p"╰───────root@GalangRA=•>" derajat;
 sleep 1
 echo $red "Loading"
 sleep 1
@@ -137,10 +137,10 @@ fi
 if [ $Gans = 4 ] || [ $Gans = 04 ]
 then
 echo $blue"╭──[Mau Kearah Mana]>"
-read -p"╰───────root@GilangKun=•>" arah;
+read -p"╰───────root@GalangRA=•>" arah;
 sleep 1
 echo $green"╭──[Mau Digeser Berapa Derajat]>"
-read -p"╰───────root@GilangKun=•>" derajat;
+read -p"╰───────root@GalangRA=•>" derajat;
 sleep 1
 echo $red "Loading"
 sleep 1
@@ -172,7 +172,7 @@ fi
 if [ $Gans = 0 ] || [ $Gans = 00 ]
 then
 echo  $red "Bay Bay"
-echo  $blue "Jangan Lupa Coli Hari Ini!"
+echo  $blue "Jangan Lupa solat Hari Ini!"
 echo  $green "KiLLeR Cyber Team!"
 exit
 fi
